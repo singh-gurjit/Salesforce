@@ -1,9 +1,9 @@
 {
     "name": "SalesforceSnippets",
-    "displayName": "Salesforce Snippets",
+    "displayName": "Salesforce Code Snippets",
     "description": "Code Snippets for Apex, LWC, Aura and Visualforce including HTML, Javascript and CSS",
     "version": "1.0.0",
-    "publisher": "Gurjit Singh",
+    "publisher": "GurjitSingh",
     "repository": {
         "type": "git",
         "url": "https://github.com/singh-gurjit/Salesforce.git"
