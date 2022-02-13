@@ -32,20 +32,27 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> cle: console.error() </li>
     <li> clc: console.clear() </li>
     <li> func: method() </li>
-    <li> imap: import apex </li>
-    <li> imcl: import custom label </li>
-    <li> imsr: import static resource </li>
     <li> wrmt: wire method </li>
     <li> cmt: method comments </li>
     <li> clt: class comments </li>
-    <li> imcr: import create record </li>
-    </ul>
+    <li> toast: showToast method</li>
+    <li> imap: import apex </li>
+    <li> imcl: import custom label </li>
+    <li> imsr: import static resource </li>
+    <li> imob: import sObject </li>
+    <li> imcr: import create record</li>
+    <li> imur: import update record</li>
+    <li> imdr: import delete record</li>
+    <li> imst: import showToastEvent</li>
+    <li> imld: import loadStyle and loadScript </li>
+    
+</ul>
     
 **LWC (XML)**
 
 <ul>
 <li> tgts: targets</li>
-<li>dgts: design attributes to use in the app builder</li>
+<li> dgts: design attributes to use in the app builder</li>
 </ul>
 
 **Apex**

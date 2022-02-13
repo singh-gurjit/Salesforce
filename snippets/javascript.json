@@ -2,21 +2,21 @@
 	"Print to console": {
 		"prefix": "clg",
 		"body": [
-			"console.log('$0')",
+			"console.log('$0')"
 		],
 		"description": "Log output to console"
 	},
 	"Print error to console": {
 		"prefix": "cle",
 		"body": [
-			"console.error('There is an error', error)",
+			"console.error('There is an error', error)"
 		],
 		"description": "Log error to console"
 	},
 	"Clear console": {
 		"prefix": "clc",
 		"body": [
-			"console.clear()",
+			"console.clear()"
 		],
 		"description": "clear console"
 	},
@@ -27,27 +27,6 @@
 			"}"
 		],
 		"description": "js class function"
-	},
-	"Import Apex": {
-		"prefix": "imap",
-		"body": [
-			"import methodName from '@salesforce/apex/className.methodName'",
-		],
-		"description": "Import Apex"
-	},
-	"Import Custom Label": {
-		"prefix": "imcl",
-		"body": [
-			"import labelName from '@salesforce/label/c.labelName'",
-		],
-		"description": "Import Custom Label"
-	},
-	"Import Static Resource": {
-		"prefix": "imsr",
-		"body": [
-			"import RESOURCE_NAME from '@salesforce/resourceUrl/resourceName'",
-		],
-		"description": "Import Static Resource"
 	},
 	"Wire Method": {
 		"prefix": "wrmt",
@@ -72,7 +51,7 @@
 			" * @param {string} param1",
 			" * @param {number} param1",
 			" * @return na",
-			" **/",
+			" **/"
 		],
 		"description": "Method level comments"
 	},
@@ -82,7 +61,7 @@
 			"/**",
 			" * @description",
 			" * @author Gurjit Singh",
-			" **/",
+			" **/"
 		],
 		"description": "Class level comments"
 	},
@@ -92,5 +71,74 @@
 			"import { createRecord } from 'lightning/uiRecordApi'"
 		],
 		"description": "import create record"
+	},
+	"LDS update record": {
+		"prefix": "imur",
+		"body": [
+			"import { updateRecord } from 'lightning/uiRecordApi'"
+		],
+		"description": "import update record"
+	},
+	"LDS delete record": {
+		"prefix": "imdr",
+		"body": [
+			"import { deleteRecord } from 'lightning/uiRecordApi'"
+		],
+		"description": "import delete record"
+	},	"Import Apex": {
+		"prefix": "imap",
+		"body": [
+			"import methodName from '@salesforce/apex/className.methodName'"
+		],
+		"description": "Import Apex"
+	},
+	"Import Custom Label": {
+		"prefix": "imcl",
+		"body": [
+			"import labelName from '@salesforce/label/c.labelName'"
+		],
+		"description": "Import Custom Label"
+	},
+	"Import Static Resource": {
+		"prefix": "imsr",
+		"body": [
+			"import RESOURCE_NAME from '@salesforce/resourceUrl/resourceName'"
+		],
+		"description": "Import Static Resource"
+	},
+	"Import sObject": {
+		"prefix": "imob",
+		"body": [
+			"import SOBJECT_NAME from '@salesforce/schema/sObjectName'"
+		],
+		"description": "Import sObject"
+	},
+	"Import ShowToastEvent": {
+		"prefix": "imst",
+		"body": [
+			"import { ShowToastEvent } from 'lightning/platformShowToastEvent';"
+		],
+		"description": "Import ShowToastEvent"
+	},
+	"Import load style load script": {
+		"prefix": "imld",
+		"body": [
+			"import { loadStyle, loadScript } from 'lightning/platformResourceLoader';"
+		],
+		"description": "Import ShowToastEvent"
+	},
+	"Show Toast Event Method": {
+		"prefix": "toast",
+		"body": [
+			"showToast(title, message, variant) {",
+			"\tconst event = new ShowToastEvent({",
+			"\t\ttitle,",
+			"\t\tmessage,",
+			"\t\tvariant",
+			"\t});",
+			"\tthis.dispatchEvent(event);",
+			"}"
+		],
+		"description": "Show toast event method"
 	}
 }
