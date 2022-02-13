@@ -4,7 +4,7 @@
 
 ## Features
 
-Code snippets for Apex
+#Glossary
 
 ## Requirements
 
