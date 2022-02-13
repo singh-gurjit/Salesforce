@@ -77,14 +77,14 @@
 		"prefix": "arp",
 		"body": [
 			"@AuraEnabled",
-			"public static string propertyName() { get; set; }",
+			"public static string propertyName { get; set; }"
 		],
 		"description": "Creates an Aura enabled property"
 	},
 	"System debug": {
 		"prefix": "syd",
 		"body": [
-			"System.debug('$0');",
+			"System.debug('$0');"
 		],
 		"description": "System debug"
 	},
