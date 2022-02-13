@@ -4,12 +4,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
 
 ## Features
 
-<<<<<<< HEAD
-Here are some examples on how to use the snippets.
-=======
 https://user-images.githubusercontent.com/50460448/153744929-e04a0997-451c-4def-925a-8033d925538e.mp4
-
->>>>>>> fa6523518981039f98fd34604f689b5e336819dd
 
 ### Glossary
 ####  Apex
