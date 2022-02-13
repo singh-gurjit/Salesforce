@@ -42,6 +42,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     </ul>
     
 **LWC (XML)**
+
 <ul>
 <li> tgts: targets</li>
 <li>dgts: design attributes to use in the app builder</li>
