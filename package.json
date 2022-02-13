@@ -1,0 +1,38 @@
+{
+    "name": "Salesforce Snippets",
+    "displayName": "Salesforce Snippets",
+    "description": "Code Snippets for Apex, LWC, Aura and Visualforce including HTML, Javascript and CSS",
+    "version": "1.0.0",
+    "publisher": "Gurjit Singh",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/singh-gurjit/Salesforce.git"
+    },
+    "icon": "icon.jpg",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "apex",
+                "path": "./snippets/apex.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/xml.json"
+            }
+        ]
+    }
+}

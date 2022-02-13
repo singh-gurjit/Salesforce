@@ -1,0 +1,96 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Template true": {
+		"prefix": "tpt",
+		"body": [
+			"<template if:true={$0statement}>",
+			"    ",
+			"</template>"
+		],
+		"description": "Template true"
+	},
+	"Template false": {
+		"prefix": "tpf",
+		"body": [
+			"<template if:false={$0statement}>",
+			"   ",
+			"</template>"
+		],
+		"description": "Template false"
+	},
+	"Template for each": {
+		"prefix": "fore",
+		"body": [
+			"<template for:each={array} for:item=\"prop\">",
+			"    $0",
+			"</template>"
+		],
+		"description": "Template for each"
+	},
+	"Iterator": {
+		"prefix": "itr",
+		"body": [
+			"<template iterator:it={array}>",
+		    "    <div key={it.value.Id}>",
+		    "        <div if:true={it.first}></div>",
+			"        {it.value.Name}",
+			"        <div if:true={it.last}></div>",
+		    "    </div>",
+			"</template>"
+		],
+		"description": "Template for each"
+	},
+	"Input": {
+		"prefix": "lgin",
+		"body": [
+			"<lightning-input label=\"$0input label\" onchange={handleInputChange}>",
+			"</lightning-input>"
+		],
+		"description": "lightning input"
+	},
+	"Lightning icon": {
+		"prefix": "lgic",
+		"body": [
+			"<lightning-icon icon-name=\"utility:$0save\">",
+			"</lightning-icon>"
+		],
+		"description": "lightning icon"
+	},
+	"Lightning icon button": {
+		"prefix": "lgicb",
+		"body": [
+			"<lightning-button-icon icon-name=\"utility:$0save\" onclick={handleButtonIconClick}>",
+			"</lightning-button-icon>"
+		],
+		"description": "lightning button icon"
+	},
+	"Button brand": {
+		"prefix": "lgbb",
+		"body": [
+			"<lightning-button label=\"$0button label\" variant=\"brand\" onclick={handleButtonClick}>",
+			"</lightning-button>"
+		],
+		"description": "Button Brand"
+	},
+	"Button brand outline": {
+		"prefix": "lgbo",
+		"body": [
+			"<lightning-button label=\"$0button label\" variant=\"brand-outline\" onclick={handleButtonClick}>",
+			"</lightning-button>"
+		],
+		"description": "Button brand outline"
+	}
+}
