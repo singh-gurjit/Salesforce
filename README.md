@@ -1,8 +1,10 @@
 # Salesforce README
 
-"Salesforce code Snippets". It includes code snippets for Apex, LWC, Aura and visualforce pages.
+It includes code snippets for Apex and LWC (HTML, Javascript and XML).
 
 ## Features
+
+Here are some examples on how to use the snippets.
 
 ### Glossary
 ####  Apex
@@ -46,22 +48,7 @@
     * tgts: targets
     * dgts: design attributes to use in the app builder
     
-    
-    
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of Salesforce Snippets
-
------------------------------------------------------------------------------------------------------------
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
+### Developer
+    Gurjit Singh  
+    https://www.linkedin.com/in/gurjitssingh/    
 **Enjoy!**
