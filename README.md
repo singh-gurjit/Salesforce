@@ -4,7 +4,12 @@
 
 ## Features
 
-Code snippets for Apex
+Code snippets for LWC HTML
+tpt: 
+
+"<template if:true={statement}>",
+"</template>"
+
 
 ## Requirements
 
