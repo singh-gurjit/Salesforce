@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/50460448/153744929-e04a0997-451c-4def-
     * psm: public string method
     * pim: public integer method
     * plm: public object[] method
-    * psm: public set<object> method
+    * psem: public set<object> method
     * pmm: public Map<string, object> method
     * arm: Aura Enabled method
     * armc: Aura enabled method with cacheable true
