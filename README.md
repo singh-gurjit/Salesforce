@@ -24,7 +24,8 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> lgbb: lightning-button with brand variant </li>
     <li> lgbo: lightning-button with brand-outline variant </li>
     <li> spin: Lightning spinner with template if true</li>
-    <li> sldstable: HTML table with slds selector with one th and td tag.</li>
+    <li> sldstable: HTML table with slds selector including one th and td tag.</li>
+    <li> lgcard: Lightning card with custom title</li>
     </ul>
 
 **LWC (Javascript)**
@@ -71,6 +72,9 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
  <li> syd: System.debug()</li>
  <li> cmt: method level comment </li>
  <li> clt: class level comments </li>
+ <li> batch: Apex batch class skeleton</li>
+ <li> singleEmail: single email message</li>
+ <li> saveResult: Save result with database.dml type along with success and failed result</li>
 </ul>
 
 **Developer**

@@ -112,5 +112,17 @@
             "</table>"
 		],
 		"description": "SLDS table"
+	},
+	"Lightning Card": {
+		"prefix": "lgcard",
+		"body": [
+			"<lightning-card>",
+				"\t<h1 slot=\"title\">",
+					"\t\t<lightning-icon icon-name=\"utility:connected_apps\" size=\"small\"></lightning-icon>",
+					"\t\tCard Title",
+				"\t</h1>",
+			"</lightning-card>"
+		],
+		"description": "Lightning Card"
 	}
 }

@@ -8,6 +8,7 @@
 			"\t<target>lightning__HomePage</target>",
 			"\t<target>lightningCommunity__Page</target>",
 			"\t<target>lightningCommunity__Default</target>",
+			"\t<target>lightning__RecordAction</target>",
 			"</targets>"
 		],
 		"description": "Target Tag"
@@ -16,7 +17,8 @@
 		"prefix": "dgts",
 		"body": [
 			"<targetConfigs>",
-			"\t<targetConfig targets=\"lightning__RecordPage,lightning__AppPage,lightning__HomePage\">",
+			"\t<targetConfig targets=\"lightning__RecordPage,lightning__AppPage,lightning__HomePage,lightning__RecordAction\">",
+			"\t\t<actionType>Action</actionType>",
 			"\t\t<property name=\"currentStep\" type=\"String\" datasource=\"step-1,step-2,step-3,step-4,step-5\" />",
 			"\t</targetConfig>",
 			"</targetConfigs>"
