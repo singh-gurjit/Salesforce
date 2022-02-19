@@ -23,6 +23,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> lgic: lighting-icon </li>
     <li> lgbb: lightning-button with brand variant </li>
     <li> lgbo: lightning-button with brand-outline variant </li>
+    <li> spin: Lighnting spinner with template if true</li>
     </ul>
 
 **LWC (Javascript)**

@@ -1,38 +1,44 @@
 {
-    "name": "SalesforceSnippets",
-    "displayName": "Salesforce Code Snippets",
-    "description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
-    "version": "1.2.0",
-    "publisher": "GurjitSingh",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/singh-gurjit/Salesforce.git"
-    },
-    "icon": "icon.jpg",
-    "engines": {
-        "vscode": "^1.64.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "apex",
-                "path": "./snippets/apex.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/javascript.json"
-            },
-            {
-                "language": "xml",
-                "path": "./snippets/xml.json"
-            }
-        ]
-    }
+	"name": "SalesforceSnippets",
+	"displayName": "Salesforce Code Snippets",
+	"description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
+	"version": "1.2.1",
+	"publisher": "GurjitSingh",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/singh-gurjit/Salesforce.git"
+	},
+	"icon": "icon.jpg",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "apex",
+				"path": "./snippets/apex.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "xml",
+				"path": "./snippets/xml.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e169aca2-ee75-4466-a6bc-581d57945ad0",
+		"publisherDisplayName": "Gurjit Singh",
+		"publisherId": "65d9c9b3-34db-4532-b80c-913bdf467ff5",
+		"isPreReleaseVersion": false
+	}
 }
