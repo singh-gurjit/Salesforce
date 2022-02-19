@@ -82,7 +82,7 @@
 	"Lightning Spinner": {
 		"prefix": "spin",
 		"body": [
-			"template if:true={showSpinner}>",
+			"<template if:true={showSpinner}>",
         		"\t<lightning-spinner alternative-text=\"Loading\" size=\"large\" variant=\"brand\">",
         		"\t</lightning-spinner>",
     		"</template>"

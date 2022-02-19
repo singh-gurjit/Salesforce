@@ -1,9 +1,8 @@
 {
-<<<<<<< HEAD
 	"name": "SalesforceSnippets",
 	"displayName": "Salesforce Code Snippets",
 	"description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"publisher": "GurjitSingh",
 	"repository": {
 		"type": "git",
@@ -43,42 +42,3 @@
 		"isPreReleaseVersion": false
 	}
 }
-=======
-    "name": "SalesforceSnippets",
-    "displayName": "Salesforce Code Snippets",
-    "description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
-    "version": "1.2.1",
-    "publisher": "GurjitSingh",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/singh-gurjit/Salesforce.git"
-    },
-    "icon": "icon.jpg",
-    "engines": {
-        "vscode": "^1.64.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "apex",
-                "path": "./snippets/apex.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/javascript.json"
-            },
-            {
-                "language": "xml",
-                "path": "./snippets/xml.json"
-            }
-        ]
-    }
-}
->>>>>>> bd770d6cb40e93d65d778d2f4658cce7a301f2fb
