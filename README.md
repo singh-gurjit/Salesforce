@@ -24,6 +24,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> lgbb: lightning-button with brand variant </li>
     <li> lgbo: lightning-button with brand-outline variant </li>
     <li> spin: Lightning spinner with template if true</li>
+    <li> sldstable: HTML table with slds selector with one th and td tag.</li>
     </ul>
 
 **LWC (Javascript)**

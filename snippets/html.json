@@ -88,5 +88,29 @@
     		"</template>"
 		],
 		"description": "Lightning Spinner"
+	},
+
+	"Slds table": {
+		"prefix": "sldstable",
+		"body": [
+			"<table class=\"slds-table slds-table_cell-buffer slds-table_bordered\">",
+    			"\t<thead>",
+       				"\t\t<tr class=\"slds-line-height_reset\">",
+            			"\t\t\t<th class=\"\" scope=\"col\" title=\"\">",
+                			"\t\t\t\tHeader Name",
+            			"\t\t\t</th>",
+        			"\t\t</tr>",
+    			"\t</thead>",
+    			"\t<tbody>",
+       				 "\t\t<template for:each={array} for:item=\"prop\">",
+            			"\t\t\t<tr class=\"slds-hint-parent\">",
+                			"\t\t\t\t<td data-label=\"\" title=\"\">",
+               				"\t\t\t\t</td>",
+           				"\t\t\t</tr>",
+       				 "\t\t</template>",
+   				"\t</tbody>",
+            "</table>"
+		],
+		"description": "SLDS table"
 	}
 }
