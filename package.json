@@ -22,7 +22,7 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "auraComponent-markup",
+				"id": "auraComponent",
 				"aliases": [
 					"aura"
 				],
@@ -34,7 +34,7 @@
 		],
 		"grammars": [
 			{
-				"language": "auraComponent-markup",
+				"language": "auraComponent",
 				"scopeName": "source.auraComponent",
 				"path": "./syntaxes/auraComponent.tmLanguage",
 				"extensions": [
