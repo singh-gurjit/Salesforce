@@ -1,5 +1,5 @@
 {
-	"name": "SalesforceSnippets",
+	"name": "salesforce-code-snippets",
 	"displayName": "Salesforce Code Snippets",
 	"description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
 	"version": "1.2.4",
@@ -16,7 +16,22 @@
 		"Snippets"
 	],
 	"contributes": {
+		"languages": [{
+			"id": "auraComponent",
+			"aliases": ["aura"],
+			"extensions": [".cmp",".app"]
+		}],
+		"grammars": [{
+			"language": "auraComponent",
+			"scopeName": "source.auraComponent",
+			"path": "./syntaxes/auraComponent.tmLanguage",
+			"extensions": [".cmp",".app"]
+		}],
 		"snippets": [
+			{
+				"language": "auraComponent",
+				"path": "./snippets/auraComponent.json"
+			},
 			{
 				"language": "apex",
 				"path": "./snippets/apex.json"
@@ -37,8 +52,9 @@
 	},
 	"__metadata": {
 		"id": "e169aca2-ee75-4466-a6bc-581d57945ad0",
-		"publisherDisplayName": "Gurjit Singh",
 		"publisherId": "65d9c9b3-34db-4532-b80c-913bdf467ff5",
-		"isPreReleaseVersion": false
+		"publisherDisplayName": "Gurjit Singh",
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1645287796915
 	}
 }

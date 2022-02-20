@@ -1,0 +1,9 @@
+{
+    "Aura attribute": {
+        "prefix": "atr",
+        "body": [
+            "<aura:attribute name=\"attributeName\" type=\"String\" />"
+        ],
+        "description": "Aura attribute"
+    }
+}
