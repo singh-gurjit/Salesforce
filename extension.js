@@ -1,3 +1,5 @@
+const vscode = require("vscode");
+
 const fileConfiguration = vscode.workspace.getConfiguration('files');
 const associations = fileConfiguration.get('associations');
 

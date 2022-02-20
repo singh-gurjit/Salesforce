@@ -1,8 +1,8 @@
 {
-	"name": "salesforce-code-snippets",
+	"name": "SalesforceSnippets",
 	"displayName": "Salesforce Code Snippets",
 	"description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
-	"version": "1.2.5",
+	"version": "1.2.6",
 	"publisher": "GurjitSingh",
 	"repository": {
 		"type": "git",
@@ -15,18 +15,34 @@
 	"categories": [
 		"Snippets"
 	],
+	"main": "./extension.js",
+	"activationEvents": [
+		"*"
+	],
 	"contributes": {
-		"languages": [{
-			"id": "auraComponent-markup",
-			"aliases": ["aura"],
-			"extensions": [".cmp",".app"]
-		}],
-		"grammars": [{
-			"language": "auraComponent-markup",
-			"scopeName": "source.auraComponent",
-			"path": "./syntaxes/auraComponent.tmLanguage",
-			"extensions": [".cmp",".app"]
-		}],
+		"languages": [
+			{
+				"id": "auraComponent-markup",
+				"aliases": [
+					"aura"
+				],
+				"extensions": [
+					".cmp",
+					".app"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "auraComponent-markup",
+				"scopeName": "source.auraComponent",
+				"path": "./syntaxes/auraComponent.tmLanguage",
+				"extensions": [
+					".cmp",
+					".app"
+				]
+			}
+		],
 		"snippets": [
 			{
 				"language": "auraComponent-markup",

@@ -77,6 +77,12 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
  <li> saveResult: Save result with database.dml type along with success and failed result</li>
 </ul>
 
+**Visualforce**
+<ul>
+    <li> lgtout: lightning out code to call aura or lwc on vf</li>
+</ul>
+
+
 **Developer**
 > Gurjit Singh https://www.linkedin.com/in/gurjitssingh/   
 

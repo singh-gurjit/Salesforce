@@ -140,5 +140,19 @@
 			"}"
 		],
 		"description": "Show toast event method"
+	},
+	"lightning out": {
+		"prefix": "lgtout",
+		"body": [
+			"\\$Lightning.use(\"c:AuraAppName\", function () {",
+				"\t\\$Lightning.createComponent(\"c:componentName\", {",
+					"\t\t// make sure to create a div with id as  LightningContainer",
+				"\t}, \"LightningContainer\", function (component) {",
+					"\t\t//component created",
+					"\t\tconst recordId = '{!\\$CurrentPage.parameters.id}'",
+				"\t});",
+			"});"
+		],
+		"description": "lightning out"
 	}
 }
