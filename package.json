@@ -17,19 +17,19 @@
 	],
 	"contributes": {
 		"languages": [{
-			"id": "auraComponent",
+			"id": "auraComponent-markup",
 			"aliases": ["aura"],
 			"extensions": [".cmp",".app"]
 		}],
 		"grammars": [{
-			"language": "auraComponent",
+			"language": "auraComponent-markup",
 			"scopeName": "source.auraComponent",
 			"path": "./syntaxes/auraComponent.tmLanguage",
 			"extensions": [".cmp",".app"]
 		}],
 		"snippets": [
 			{
-				"language": "auraComponent",
+				"language": "auraComponent-markup",
 				"path": "./snippets/auraComponent.json"
 			},
 			{
