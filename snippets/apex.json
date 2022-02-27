@@ -113,7 +113,7 @@
 	"Batch Class": {
 		"prefix": "batch",
 		"body": [
-			"public class BatchClass implements Database.Batchable<sObject>{\n",
+			"public class ${TM_FILENAME_BASE} implements Database.Batchable<sObject>{\n",
 				
 				"\tpublic Database.QueryLocator start(Database.BatchableContext batchableContext) {",
 			
