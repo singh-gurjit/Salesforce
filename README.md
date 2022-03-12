@@ -75,6 +75,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
  <li> batch: Apex batch class skeleton</li>
  <li> singleEmail: single email message</li>
  <li> saveResult: Save result with database.dml type along with success and failed result</li>
+ <li> req: Http request callout</li>
 </ul>
 
 **Visualforce**
