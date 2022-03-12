@@ -169,5 +169,24 @@
 			"}"
 		],
 		"description": "Save Result"
+	},
+	"HTTP Request": {
+		"prefix": "req",
+		"body": [
+			"HttpRequest request = new HttpRequest();",
+     		"request.setEndpoint(endPointUrl);",
+     		"request.setMethod('GET');",
+			"request.setHeader('Authorization', authorizationHeader);\n",
+
+    		"Http http = new Http();",
+     		"HTTPResponse response = http.send(request);",
+			"Integer statusCode = response.getStatusCode();",
+			"if(200 == statusCode) {",
+			"\tstring responseBody = response.getBody();",
+			"} else {",
+			"\tSystem.debug('statusCode '+statusCode);",
+			"}"
+		],
+		"description": "HTTP Request"
 	}
 }
