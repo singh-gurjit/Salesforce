@@ -114,27 +114,19 @@
 		"prefix": "batch",
 		"body": [
 			"public class ${TM_FILENAME_BASE} implements Database.Batchable<sObject>{\n",
-				
-				"\tpublic Database.QueryLocator start(Database.BatchableContext batchableContext) {",
-			
-				  "\t\treturn Database.getQueryLocator([SELECT Id FROM Account]);",
-				"\t}\n",
-			 
-				"\tpublic void execute(Database.BatchableContext batchableContext, List<sObject> scope) {",
-			
-					"\t\tfor(sObject data: scope) {",
-			
-					"\t\t}",
-				"\t}\n",
-			 
-				"\tpublic void finish(Database.BatchableContext batchableContext) {\n",
-			
-				"\t}",
+			"\tpublic Database.QueryLocator start(Database.BatchableContext batchableContext) {",
+			"\t\treturn Database.getQueryLocator([SELECT Id FROM Account]);",
+			"\t}\n",
+			"\tpublic void execute(Database.BatchableContext batchableContext, List<sObject> scope) {",
+			"\t\tfor(sObject data: scope) {",
+			"\t\t}",
+			"\t}\n",
+			"\tpublic void finish(Database.BatchableContext batchableContext) {\n",
+			"\t}",
 			"}"
 		],
 		"description": "Batch Class"
 	},
-
 	"Single Email": {
 		"prefix": "singleEmail",
 		"body": [
@@ -153,19 +145,18 @@
 		"prefix": "saveResult",
 		"body": [
 			"Database.SaveResult[] saveResultArray = Database.insert(array, false);",
-
 			"for (Database.SaveResult saveResult : saveResultArray) {",
-				"\tif (saveResult.isSuccess()) {",
-					"\t\t// Operation was successful, so get the ID of the record that was processed",
-					"\t\tSystem.debug('Successfully inserted account. Account ID: ' + saveResult.getId());",
-				"\t} else {",
-					"\t\t// Operation failed, so get all errors",
-					"\t\tfor(Database.Error error : saveResult.getErrors()) {",
-						"\t\t\tSystem.debug('The following error has occurred.');",
-						"\t\t\tSystem.debug(error.getStatusCode() + ': ' + error.getMessage());",
-						"\t\t\tSystem.debug('Account fields that affected this error: ' + error.getFields());",
-					"\t\t}",
-				"\t}",
+			"\tif (saveResult.isSuccess()) {",
+			"\t\t// Operation was successful, so get the ID of the record that was processed",
+			"\t\tSystem.debug('Successfully inserted account. Account ID: ' + saveResult.getId());",
+			"\t} else {",
+			"\t\t// Operation failed, so get all errors",
+			"\t\tfor(Database.Error error : saveResult.getErrors()) {",
+			"\t\t\tSystem.debug('The following error has occurred.');",
+			"\t\t\tSystem.debug(error.getStatusCode() + ': ' + error.getMessage());",
+			"\t\t\tSystem.debug('Account fields that affected this error: ' + error.getFields());",
+			"\t\t}",
+			"\t}",
 			"}"
 		],
 		"description": "Save Result"
@@ -174,12 +165,11 @@
 		"prefix": "req",
 		"body": [
 			"HttpRequest request = new HttpRequest();",
-     		"request.setEndpoint(endPointUrl);",
-     		"request.setMethod('GET');",
+			"request.setEndpoint(endPointUrl);",
+			"request.setMethod('GET');",
 			"request.setHeader('Authorization', authorizationHeader);\n",
-
-    		"Http http = new Http();",
-     		"HTTPResponse response = http.send(request);",
+			"Http http = new Http();",
+			"HTTPResponse response = http.send(request);",
 			"Integer statusCode = response.getStatusCode();",
 			"if(200 == statusCode) {",
 			"\tstring responseBody = response.getBody();",
@@ -188,5 +178,12 @@
 			"}"
 		],
 		"description": "HTTP Request"
+	},
+	"SOQL query": {
+		"prefix": "soql",
+		"body": [
+			"[SELECT id FROM tableName WHERE $0];"
+		],
+		"description": "SOQL query"
 	}
 }

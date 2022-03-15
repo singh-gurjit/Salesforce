@@ -2,7 +2,7 @@
 	"name": "SalesforceSnippets",
 	"displayName": "Salesforce Code Snippets",
 	"description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
-	"version": "1.2.11",
+	"version": "1.2.12",
 	"publisher": "GurjitSingh",
 	"repository": {
 		"type": "git",
