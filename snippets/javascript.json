@@ -85,7 +85,8 @@
 			"import { deleteRecord } from 'lightning/uiRecordApi'"
 		],
 		"description": "import delete record"
-	},	"Import Apex": {
+	},
+	"Import Apex": {
 		"prefix": "imap",
 		"body": [
 			"import methodName from '@salesforce/apex/className.methodName'"
@@ -145,14 +146,25 @@
 		"prefix": "lgtout",
 		"body": [
 			"\\$Lightning.use(\"c:AuraAppName\", function () {",
-				"\t\\$Lightning.createComponent(\"c:componentName\", {",
-					"\t\t// make sure to create a div with id as  LightningContainer",
-				"\t}, \"LightningContainer\", function (component) {",
-					"\t\t//component created",
-					"\t\tconst recordId = '{!\\$CurrentPage.parameters.id}'",
-				"\t});",
+			"\t\\$Lightning.createComponent(\"c:componentName\", {",
+			"\t\t// make sure to create a div with id as  LightningContainer",
+			"\t}, \"LightningContainer\", function (component) {",
+			"\t\t//component created",
+			"\t\tconst recordId = '{!\\$CurrentPage.parameters.id}'",
+			"\t});",
 			"});"
 		],
 		"description": "lightning out"
+	},
+	"dispatch custom event": {
+		"prefix": "dce",
+		"body": [
+			"this.dispatchEvent(new CustomEvent('eventname', {",
+			"\tdetail: data",
+			"\tbubbles: false",
+			"\tcomposed: false",
+			"}))"
+		],
+		"description": "dispatch custom event"
 	}
 }

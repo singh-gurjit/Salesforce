@@ -77,7 +77,7 @@
 		"prefix": "arp",
 		"body": [
 			"@AuraEnabled",
-			"public static string propertyName { get; set; }"
+			"public string propertyName { get; set; }"
 		],
 		"description": "Creates an Aura enabled property"
 	},
