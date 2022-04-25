@@ -160,8 +160,8 @@
 		"prefix": "dce",
 		"body": [
 			"this.dispatchEvent(new CustomEvent('eventname', {",
-			"\tdetail: data",
-			"\tbubbles: false",
+			"\tdetail: $0data,",
+			"\tbubbles: false,",
 			"\tcomposed: false",
 			"}))"
 		],
