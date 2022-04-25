@@ -39,6 +39,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> cmt: method comments </li>
     <li> clt: class comments </li>
     <li> toast: showToast method</li>
+    <li> dce: dispatch custom event</li>
     <li> imap: import apex </li>
     <li> imcl: import custom label </li>
     <li> imsr: import static resource </li>
