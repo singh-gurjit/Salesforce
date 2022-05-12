@@ -166,5 +166,45 @@
 			"}))"
 		],
 		"description": "dispatch custom event"
+	},
+	"paginator": {
+		"prefix": "paginator",
+		"body": [
+			"get disablePreviousButton() {",
+			"\treturn this.currentPage == 1",
+			"}",
+			"",
+			"get disableNextButton() {",
+			"\treturn this.currentPage == this.totalPages",
+			"}",
+			"",
+			"handleFirstPage() {",
+			"\tthis.currentPage = 1",
+			"\tthis.tableDataArrayToDisplay = this.tableDataArray",
+			"\t\t.slice(0, numberOfRecordsPerPage)",
+			"\t}",
+			"",
+			"handlePreviousPage() {",
+			"\t--this.currentPage",
+			"\tthis.tableDataArrayToDisplay = this.tableDataArray",
+			"\t\t.slice(numberOfRecordsPerPage * (this.currentPage - 1), numberOfRecordsPerPage * this.currentPage)",
+			"}",
+			"",
+			"handleNextPage() {",
+			"\t++this.currentPage",
+			"\tthis.tableDataArrayToDisplay = this.tableDataArray",
+			"\t\t.slice(numberOfRecordsPerPage * (this.currentPage - 1), numberOfRecordsPerPage * this.currentPage)",
+			"}",
+			"",
+			"handleLastPage() {",
+			"\tthis.currentPage = this.totalPages",
+			"\tlet startPoint = this.tableDataArray.length % numberOfRecordsPerPage || numberOfRecordsPerPage",
+			"\tstartPoint = this.tableDataArray.length - startPoint - 1",
+			"\tconst endPoint = this.tableDataArray.length - 1",
+			"\tthis.tableDataArrayToDisplay = this.tableDataArray",
+			"\t\t.slice(startPoint, endPoint)",
+			"}"
+		],
+		"description": "Pagination code"
 	}
 }

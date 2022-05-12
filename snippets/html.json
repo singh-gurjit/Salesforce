@@ -30,11 +30,11 @@
 		"prefix": "itr",
 		"body": [
 			"<template iterator:it={array}>",
-		    "    <div key={it.value.Id}>",
-		    "        <div if:true={it.first}></div>",
+			"    <div key={it.value.Id}>",
+			"        <div if:true={it.first}></div>",
 			"        {it.value.Name}",
 			"        <div if:true={it.last}></div>",
-		    "    </div>",
+			"    </div>",
 			"</template>"
 		],
 		"description": "Template for each"
@@ -83,33 +83,32 @@
 		"prefix": "spin",
 		"body": [
 			"<template if:true={showSpinner}>",
-        		"\t<lightning-spinner alternative-text=\"Loading\" size=\"large\" variant=\"brand\">",
-        		"\t</lightning-spinner>",
-    		"</template>"
+			"\t<lightning-spinner alternative-text=\"Loading\" size=\"large\" variant=\"brand\">",
+			"\t</lightning-spinner>",
+			"</template>"
 		],
 		"description": "Lightning Spinner"
 	},
-
 	"Slds table": {
 		"prefix": "sldstable",
 		"body": [
 			"<table class=\"slds-table slds-table_cell-buffer slds-table_bordered\">",
-    			"\t<thead>",
-       				"\t\t<tr class=\"slds-line-height_reset\">",
-            			"\t\t\t<th class=\"\" scope=\"col\" title=\"\">",
-                			"\t\t\t\tHeader Name",
-            			"\t\t\t</th>",
-        			"\t\t</tr>",
-    			"\t</thead>",
-    			"\t<tbody>",
-       				 "\t\t<template for:each={array} for:item=\"prop\">",
-            			"\t\t\t<tr class=\"slds-hint-parent\">",
-                			"\t\t\t\t<td data-label=\"\" title=\"\">",
-               				"\t\t\t\t</td>",
-           				"\t\t\t</tr>",
-       				 "\t\t</template>",
-   				"\t</tbody>",
-            "</table>"
+			"\t<thead>",
+			"\t\t<tr class=\"slds-line-height_reset\">",
+			"\t\t\t<th class=\"\" scope=\"col\" title=\"\">",
+			"\t\t\t\tHeader Name",
+			"\t\t\t</th>",
+			"\t\t</tr>",
+			"\t</thead>",
+			"\t<tbody>",
+			"\t\t<template for:each={array} for:item=\"prop\">",
+			"\t\t\t<tr class=\"slds-hint-parent\">",
+			"\t\t\t\t<td data-label=\"\" title=\"\">",
+			"\t\t\t\t</td>",
+			"\t\t\t</tr>",
+			"\t\t</template>",
+			"\t</tbody>",
+			"</table>"
 		],
 		"description": "SLDS table"
 	},
@@ -117,12 +116,75 @@
 		"prefix": "lgcard",
 		"body": [
 			"<lightning-card>",
-				"\t<h1 slot=\"title\">",
-					"\t\t<lightning-icon icon-name=\"utility:connected_apps\" size=\"small\"></lightning-icon>",
-					"\t\tCard Title",
-				"\t</h1>",
+			"\t<h1 slot=\"title\">",
+			"\t\t<lightning-icon icon-name=\"utility:connected_apps\" size=\"small\"></lightning-icon>",
+			"\t\tCard Title",
+			"\t</h1>",
 			"</lightning-card>"
 		],
 		"description": "Lightning Card"
+	},
+	"Paginator": {
+		"prefix": "paginator",
+		"body": [
+			"<section class=\"slds-grid slds-grid_align-center slds-var-p-vertical_small\">",
+			"\t<lightning-button label=\"First\" icon-name=\"utility:jump_to_left\" disabled={disablePreviousButton}",
+			"\t\tvariant=\"brand-outline\" onclick={handleFirstPage}>",
+			"\t</lightning-button>",
+			"\t<lightning-button label=\"Previous\" icon-name=\"utility:chevronleft\" variant=\"brand-outline\"",
+			"\t\tdisabled={disablePreviousButton} class=\"slds-var-p-horizontal_small\" onclick={handlePreviousPage}>",
+			"\t</lightning-button>",
+			"\t<p class=\"slds-var-p-top_xx-small\">{currentPage}/{totalPages}</p>",
+			"\t<lightning-button label=\"Next\" icon-name=\"utility:chevronright\" variant=\"brand-outline\"",
+			"\t\tdisabled={disableNextButton} class=\"slds-var-p-horizontal_small\" onclick={handleNextPage}>",
+			"\t</lightning-button>",
+			"\t<lightning-button label=\"Last\" icon-name=\"utility:jump_to_right\" variant=\"brand-outline\"",
+			"\t\tdisabled={disableNextButton} onclick={handleLastPage}>",
+			"\t</lightning-button>",
+			"</section>"
+		],
+		"description": "Pagination code"
+	},
+	"SLDS grid with center align": {
+		"prefix": "gridcenter",
+		"body": [
+			"slds-grid slds-grid_align-center"
+		],
+		"description": "SLDS grid with center align"
+	},
+	"SLDS grid with space align": {
+		"prefix": "gridspace",
+		"body": [
+			"slds-grid slds-grid_align-space"
+		],
+		"description": "SLDS grid with space align"
+	},
+	"SLDS grid with spread align": {
+		"prefix": "gridspread",
+		"body": [
+			"slds-grid slds-grid_align-spread"
+		],
+		"description": "SLDS grid with spread align"
+	},
+	"SLDS bump left": {
+		"prefix": "bumpleft",
+		"body": [
+			"slds-col_bump-left"
+		],
+		"description": "SLDS bump left"
+	},
+	"SLDS bump right": {
+		"prefix": "bumpright",
+		"body": [
+			"slds-col_bump-right"
+		],
+		"description": "SLDS bump right"
+	},
+	"SLDS align center": {
+		"prefix": "aligncenter",
+		"body": [
+			"slds-align_absolute-center"
+		],
+		"description": "SLDS align absolute center"
 	}
 }

@@ -26,6 +26,13 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> spin: Lightning spinner with template if true</li>
     <li> sldstable: HTML table with slds selector including one th and td tag.</li>
     <li> lgcard: Lightning card with custom title</li>
+    <li> paginator: Generate code for pagination.</li>
+    <li> gridcenter: SLDS grid with center align.</li>
+    <li> gridspace: SLDS grid with space align.</li>
+    <li> gridspread: SLDS grid with spread align.</li>
+    <li> bumpleft: SLDS bump left.</li>
+    <li> bumpright: SLDS bump right.</li>
+    <li> aligncenter: SLDS align absolute center.</li>
     </ul>
 
 **LWC (Javascript)**
@@ -49,7 +56,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> imdr: import delete record</li>
     <li> imst: import showToastEvent</li>
     <li> imld: import loadStyle and loadScript </li>
-    
+    <li> paginator: Generate code for pagination.</li>
 </ul>
     
 **LWC (XML)**
