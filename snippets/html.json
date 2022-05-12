@@ -148,42 +148,42 @@
 	"SLDS grid with center align": {
 		"prefix": "gridcenter",
 		"body": [
-			"slds-grid slds-grid_align-center"
+			"class=\"slds-grid slds-grid_align-center\""
 		],
 		"description": "SLDS grid with center align"
 	},
 	"SLDS grid with space align": {
 		"prefix": "gridspace",
 		"body": [
-			"slds-grid slds-grid_align-space"
+			"class=\"slds-grid slds-grid_align-space\""
 		],
 		"description": "SLDS grid with space align"
 	},
 	"SLDS grid with spread align": {
 		"prefix": "gridspread",
 		"body": [
-			"slds-grid slds-grid_align-spread"
+			"class=\"slds-grid slds-grid_align-spread\""
 		],
 		"description": "SLDS grid with spread align"
 	},
 	"SLDS bump left": {
 		"prefix": "bumpleft",
 		"body": [
-			"slds-col_bump-left"
+			"class=\"slds-col_bump-left\""
 		],
 		"description": "SLDS bump left"
 	},
 	"SLDS bump right": {
 		"prefix": "bumpright",
 		"body": [
-			"slds-col_bump-right"
+			"class=\"slds-col_bump-right\""
 		],
 		"description": "SLDS bump right"
 	},
 	"SLDS align center": {
 		"prefix": "aligncenter",
 		"body": [
-			"slds-align_absolute-center"
+			"class=\"slds-align_absolute-center\""
 		],
 		"description": "SLDS align absolute center"
 	}

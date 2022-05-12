@@ -182,7 +182,7 @@
 			"\tthis.currentPage = 1",
 			"\tthis.tableDataArrayToDisplay = this.tableDataArray",
 			"\t\t.slice(0, numberOfRecordsPerPage)",
-			"\t}",
+			"}",
 			"",
 			"handlePreviousPage() {",
 			"\t--this.currentPage",
