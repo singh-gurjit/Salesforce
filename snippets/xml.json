@@ -9,6 +9,7 @@
 			"\t<target>lightningCommunity__Page</target>",
 			"\t<target>lightningCommunity__Default</target>",
 			"\t<target>lightning__RecordAction</target>",
+			"\t<target>lightning__Tab</target>",
 			"</targets>"
 		],
 		"description": "Target Tag"
