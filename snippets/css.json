@@ -1,0 +1,25 @@
+{
+    "SLDS button brand": {
+        "prefix": "btnbrand",
+        "body": [
+            ".brand-button {",
+            "\t--slds-c-button-brand-color-background: orangered;",
+            "\t--slds-c-button-brand-color-background-hover: rgb(186, 50, 0);",
+            "\t--slds-c-button-brand-color-border: orangered;",
+            "\t--slds-c-button-brand-color-border-hover: rgb(186, 50, 0);",
+            "\t--slds-c-button-brand-text-color: #fff;",
+            "}"
+        ],
+        "description": "Brand button color"
+    },
+    "SLDS utility icon color": {
+        "prefix": "icnutl",
+        "body": [
+            ".Utility-icon {",
+            "\t--sds-c-icon-color-foreground: purple;",
+            "\t--sds-c-icon-color-background: pink;",
+            "}"
+        ],
+        "description": "Utility icon color"
+    }
+}

@@ -206,5 +206,14 @@
 			"}"
 		],
 		"description": "Pagination code"
+	},
+	"Arrow function": {
+		"prefix": "arrow",
+		"body": [
+			"const myMethod = () => {",
+			"\t$0,",
+			"}"
+		],
+		"description": "Arrow method"
 	}
 }
