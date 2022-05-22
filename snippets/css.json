@@ -15,7 +15,7 @@
     "SLDS utility icon color": {
         "prefix": "icnutl",
         "body": [
-            ".Utility-icon {",
+            ".utility-icon {",
             "\t--sds-c-icon-color-foreground: purple;",
             "\t--sds-c-icon-color-background: pink;",
             "}"

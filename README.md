@@ -1,6 +1,6 @@
 # Salesforce Code Snippets
 
-It includes code snippets for Apex and LWC (HTML, Javascript and XML).
+It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
 
 ## Features
 
@@ -58,7 +58,14 @@ It includes code snippets for Apex and LWC (HTML, Javascript and XML).
     <li> imld: import loadStyle and loadScript </li>
     <li> paginator: Generate code for pagination.</li>
 </ul>
-    
+
+**LWC (CSS)**
+
+<ul>
+<li> btnbrand: Changes the lightning button color.</li>
+<li> icnutl: Changes the lightning icon color.</li>
+</ul>
+
 **LWC (XML)**
 
 <ul>
