@@ -57,6 +57,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> imst: import showToastEvent</li>
     <li> imld: import loadStyle and loadScript </li>
     <li> paginator: Generate code for pagination.</li>
+    <li> arrow: Creates named arrow method.</li>
 </ul>
 
 **LWC (CSS)**
