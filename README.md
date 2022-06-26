@@ -27,12 +27,15 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> sldstable: HTML table with slds selector including one th and td tag.</li>
     <li> lgcard: Lightning card with custom title</li>
     <li> paginator: Generate code for pagination.</li>
+    <li> grid: SLDS grid.</li>
     <li> gridcenter: SLDS grid with center align.</li>
     <li> gridspace: SLDS grid with space align.</li>
     <li> gridspread: SLDS grid with spread align.</li>
+    <li> gridend: SLDS grid with end align.</li>
     <li> bumpleft: SLDS bump left.</li>
     <li> bumpright: SLDS bump right.</li>
     <li> aligncenter: SLDS align absolute center.</li>
+    <li> sldsmodal: SLDS Modal.</li>
     </ul>
 
 **LWC (Javascript)**
