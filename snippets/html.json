@@ -145,6 +145,13 @@
 		],
 		"description": "Pagination code"
 	},
+	"SLDS grid": {
+		"prefix": "grid",
+		"body": [
+			"class=\"slds-grid\""
+		],
+		"description": "SLDS grid"
+	},
 	"SLDS grid with center align": {
 		"prefix": "gridcenter",
 		"body": [
@@ -166,6 +173,13 @@
 		],
 		"description": "SLDS grid with spread align"
 	},
+	"SLDS align end": {
+		"prefix": "alignend",
+		"body": [
+			"class=\"slds-grid slds-grid_align-end\""
+		],
+		"description": "SLDS grid with end align"
+	},
 	"SLDS bump left": {
 		"prefix": "bumpleft",
 		"body": [
@@ -186,5 +200,32 @@
 			"class=\"slds-align_absolute-center\""
 		],
 		"description": "SLDS align absolute center"
+	},
+	"SLDS modal": {
+		"prefix": "sldsmodal",
+		"body": [
+			"<section role=\"dialog\" class=\"slds-modal slds-fade-in-open\">",
+			"\t<div class=\"slds-modal__container\">",
+			"\t\t<lightning-button-icon icon-name=\"utility:close\" variant=\"bare\" size=\"large\" class=\"slds-modal__close\"",
+			"\t\t\tonclick={handleCancel}>",
+			"\t\t<\/lightning-button-icon>",
+			"\t\t<div class=\"slds-modal__header\">",
+			"\t\t\t<h1 class=\"slds-modal__title slds-hyphenate\">Modal header<\/h1>",
+			"\t\t<\/div>",
+			"\t\t<div class=\"slds-modal__content slds-p-around_medium\">",
+			"\t\t\tSLDS modal body",
+			"\t\t<\/div>",
+			"\t\t<div class=\"slds-modal__footer\">",
+			"\t\t\t<lightning-button label=\"Cancel\" icon-name=\"utility:close\" variant=\"brand-outline\"",
+			"\t\t\t\tclass=\"slds-var-m-right_small\" onclick={handleCancel}>",
+			"\t\t\t<\/lightning-button>",
+			"\t\t\t<lightning-button label=\"Save\" icon-name=\"utility:save\" variant=\"brand\" onclick={handleSave}>",
+			"\t\t\t<\/lightning-button>",
+			"\t\t<\/div>",
+			"\t<\/div>",
+			"<\/section>",
+			"<div class=\"slds-backdrop slds-backdrop_open\" role=\"presentation\"><\/div>"
+		],
+		"description": "SLDS modal"
 	}
 }

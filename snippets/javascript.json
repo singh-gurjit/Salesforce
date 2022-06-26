@@ -211,7 +211,7 @@
 		"prefix": "arrow",
 		"body": [
 			"const myMethod = () => {",
-			"\t$0,",
+			"\t$0",
 			"}"
 		],
 		"description": "Arrow method"
