@@ -16,10 +16,20 @@
         "prefix": "icnutl",
         "body": [
             ".utility-icon {",
+            "\t--sds-c-icon-color-foreground-default: hsl(213, 93%, 65%);",
+            "}"
+        ],
+        "description": "Utility icon color"
+    },
+
+    "SLDS utility icon color background": {
+        "prefix": "icnutlbg",
+        "body": [
+            ".utility-icon {",
             "\t--sds-c-icon-color-foreground: purple;",
             "\t--sds-c-icon-color-background: pink;",
             "}"
         ],
-        "description": "Utility icon color"
+        "description": "Utility icon color background"
     }
 }

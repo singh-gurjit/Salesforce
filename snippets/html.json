@@ -152,6 +152,13 @@
 		],
 		"description": "SLDS grid"
 	},
+	"SLDS grid gutters": {
+		"prefix": "gridg",
+		"body": [
+			"class=\"slds-grid slds-gutters\""
+		],
+		"description": "SLDS grid"
+	},
 	"SLDS grid with center align": {
 		"prefix": "gridcenter",
 		"body": [
