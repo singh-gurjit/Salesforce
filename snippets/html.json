@@ -181,7 +181,7 @@
 		"description": "SLDS grid with spread align"
 	},
 	"SLDS align end": {
-		"prefix": "alignend",
+		"prefix": "gridend",
 		"body": [
 			"class=\"slds-grid slds-grid_align-end\""
 		],
