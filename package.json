@@ -2,7 +2,7 @@
 	"name": "SalesforceSnippets",
 	"displayName": "Salesforce Code Snippets",
 	"description": "Code Snippets for Apex and LWC (HTML, Javascript and XML)",
-	"version": "1.5",
+	"version": "1.5.1",
 	"publisher": "GurjitSingh",
 	"repository": {
 		"type": "git",
@@ -36,7 +36,7 @@
 			{
 				"language": "auraComponent",
 				"scopeName": "source.auraComponent",
-				"path": "./syntaxes/auraComponent.tmLanguage",
+				"path": "./syntaxes/auraComponent.htmLanguage",
 				"extensions": [
 					".cmp",
 					".app"
