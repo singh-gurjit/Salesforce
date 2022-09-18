@@ -301,5 +301,20 @@
 			"deleteRecord(this.recordId)"
 		],
 		"description": "LDS delete record"
+	},
+	"try catch finally": {
+		"prefix": "tcf",
+		"body": [
+			"try {",
+			"\tthis.showSpinner = true",
+			"$0",
+			"} catch(error) {",
+			"\tconsole.log('There is an error', JSON.stringify(error))",
+			"\tconsole.error('There is an error', error)",
+			"} finally {",
+			"\tthis.showSpinner = false",
+			"}"
+		],
+		"description": "try catch finally"
 	}
 }
