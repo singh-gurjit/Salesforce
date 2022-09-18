@@ -68,9 +68,10 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> jst: JSON.stringify()</li>
     <li> jsp: JSON.parse()</li>
     <li> jspt: JSON.parse(JSON.stringify())</li>
-    <li> create: LDS create record</li>
-    <li> update: LDS update record</li>
-    <li> delete: LDS delete record</li>
+    <li> create: LDS create record.</li>
+    <li> update: LDS update record.</li>
+    <li> delete: LDS delete record.</li>
+    <li> tcf: try catch and finally block.</li>
 </ul>
 
 **LWC (CSS)**
