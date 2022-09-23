@@ -331,6 +331,7 @@
 			"getPicklistOptionsHandler(result) {",
 			"\tconst { data, error } = result",
 			"\tif (data) {",
+			"\t\tthis.picklistOptions = data.values",
 			"\t} else if (error) {",
 			"\t\tconsole.log('There is an error', JSON.stringify(error))",
 			"\t\tconsole.error('There is an error', error)",
