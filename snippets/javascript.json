@@ -145,6 +145,13 @@
 		],
 		"description": "Import ShowToastEvent"
 	},
+	"Import getPicklistValues": {
+		"prefix": "impv",
+		"body": [
+			"import { getPicklistValues } from 'lightning/uiObjectInfoApi'"
+		],
+		"description": "Import getPicklistValues"
+	},
 	"Show Toast Event Method": {
 		"prefix": "toast",
 		"body": [
@@ -316,5 +323,20 @@
 			"}"
 		],
 		"description": "try catch finally"
+	},
+	"getPicklistValues": {
+		"prefix": "pick",
+		"body": [
+			"@wire(getPicklistValues, { recordTypeId: '012000000000000AAA', fieldApiName: NUMBER_OF_SIGNATURE_FIELD })",
+			"getPicklistOptionsHandler(result) {",
+			"\tconst { data, error } = result",
+			"\tif (data) {",
+			"\t} else if (error) {",
+			"\t\tconsole.log('There is an error', JSON.stringify(error))",
+			"\t\tconsole.error('There is an error', error)",
+			"\t}",
+			"}"
+		],
+		"description": "getPicklistValues"
 	}
 }
