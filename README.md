@@ -59,6 +59,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> imdr: import delete record</li>
     <li> imst: import showToastEvent</li>
     <li> imld: import loadStyle and loadScript </li>
+    <li> impv: import getPicklistValues</li>
     <li> paginator: Generate code for pagination.</li>
     <li> arrow: Creates named arrow method.</li>
     <li> getrec: LDS get record.</li>
@@ -72,6 +73,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> update: LDS update record.</li>
     <li> delete: LDS delete record.</li>
     <li> tcf: try catch and finally block.</li>
+    <li> pick: getPicklistValues wire handler.</li>
 </ul>
 
 **LWC (CSS)**
