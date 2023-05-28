@@ -82,6 +82,13 @@
 		],
 		"description": "Class level comments"
 	},
+	"LDS get record": {
+		"prefix": "imgr",
+		"body": [
+			"import { getRecord } from 'lightning/uiRecordApi'"
+		],
+		"description": "import get record"
+	},
 	"LDS create record": {
 		"prefix": "imcr",
 		"body": [
@@ -151,6 +158,13 @@
 			"import { getPicklistValues } from 'lightning/uiObjectInfoApi'"
 		],
 		"description": "Import getPicklistValues"
+	},
+	"Import refreshApex": {
+		"prefix": "imra",
+		"body": [
+			"import { refreshApex } from '@salesforce/apex'"
+		],
+		"description": "Import refreshApex"
 	},
 	"Show Toast Event Method": {
 		"prefix": "toast",
@@ -339,5 +353,16 @@
 			"}"
 		],
 		"description": "getPicklistValues"
+	},
+	"logError": {
+		"prefix": "log",
+		"body": [
+			"logError(error) {",
+			"\tconsole.error('There is an error', error)",
+			"\tconsole.log('There is an error', JSON.stringify(error))",
+			"\tthis.showToast('Error', 'There is an error with this application, please check with your system administrator', 'error')",
+			"}"
+		],
+		"description": "logError"
 	}
 }

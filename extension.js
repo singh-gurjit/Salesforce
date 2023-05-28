@@ -6,7 +6,7 @@ const associations = fileConfiguration.get('associations');
 /* associations['*.app'] = "auraComponent";
 associations['*.cmp'] = "auraComponent"; */
 
-fileConfiguration.update('associations', associations, vscode.ConfigurationTarget.Global)
-    .then(() => {
+// fileConfiguration.update('associations', associations, vscode.ConfigurationTarget.Global)
+//     .then(() => {
 
-    });
+//     });

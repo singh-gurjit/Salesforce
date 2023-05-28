@@ -60,15 +60,16 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> imst: import showToastEvent</li>
     <li> imld: import loadStyle and loadScript </li>
     <li> impv: import getPicklistValues</li>
+    <li> ref: import refreshApex </li>
     <li> paginator: Generate code for pagination.</li>
     <li> arrow: Creates named arrow method.</li>
-    <li> getrec: LDS get record.</li>
     <li> etv: event.target.value</li>
     <li> etc: event.target.checked</li>
     <li> etd: event.target.dataset.id</li>
     <li> jst: JSON.stringify()</li>
     <li> jsp: JSON.parse()</li>
     <li> jspt: JSON.parse(JSON.stringify())</li>
+    <li> getrec: LDS get record.</li>
     <li> create: LDS create record.</li>
     <li> update: LDS update record.</li>
     <li> delete: LDS delete record.</li>
