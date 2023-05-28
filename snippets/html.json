@@ -1,21 +1,30 @@
 {
 	"Template true": {
-		"prefix": "tpt",
+		"prefix": "tpi",
 		"body": [
-			"<template if:true={$0statement}>",
+			"<template lwc:if={$0statement}>",
 			"    ",
 			"</template>"
 		],
 		"description": "Template true"
 	},
-	"Template false": {
+	"Template else if": {
 		"prefix": "tpf",
 		"body": [
-			"<template if:false={$0statement}>",
+			"<template lwc:elseif={$0statement}>",
 			"   ",
 			"</template>"
 		],
-		"description": "Template false"
+		"description": "Template else if"
+	},
+	"Template else": {
+		"prefix": "tpe",
+		"body": [
+			"<template lwc:else>",
+			"   $0",
+			"</template>"
+		],
+		"description": "Template else"
 	},
 	"Template for each": {
 		"prefix": "fore",
