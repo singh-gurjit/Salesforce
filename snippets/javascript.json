@@ -24,9 +24,19 @@
 		"prefix": "func",
 		"body": [
 			"methodName(event) {",
+			"$0",
 			"}"
 		],
 		"description": "js class function"
+	},
+	"Export Default Class": {
+		"prefix": "edc",
+		"body": [
+			"export default class Service {",
+			"$0",
+			"}"
+		],
+		"description": "export default class"
 	},
 	"Wire Method": {
 		"prefix": "wrmt",
@@ -59,6 +69,34 @@
 			"}"
 		],
 		"description": "Wire getRecord"
+	},
+	"Wire graphql": {
+		"prefix": "wrgq",
+		"body": [
+			"@wire(graphql, {",
+			"\tquery: gql`",
+			"\t\tquery AccountInfo {",
+			"\t\t\tuiapi {",
+			"\t\t\t\tquery {",
+			"\t\t\t\tAccount(where: { Name: { like: \"Account1\" } }) {",
+			"\t\t\t\t\tedges {",
+			"\t\t\t\t\t\tnode {",
+			"\t\t\t\t\t\t\tName {",
+			"\t\t\t\t\t\t\t\tvalue",
+			"\t\t\t\t\t\t\t\tdisplayValue",
+			"\t\t\t\t\t\t\t}",
+			"\t\t\t\t\t\t}",
+			"\t\t\t\t\t}",
+			"\t\t\t\t}",
+			"\t\t\t}",
+			"\t\t}",
+			"\t}`",
+			"})",
+			"graphqlQueryResult(result) {",
+			"this.graphqlData = result; // refreshGraphql() can be used with this",
+			"}"
+		],
+		"description": "Wire graphql code"
 	},
 	"Add method Comment": {
 		"prefix": "cmt",
@@ -165,6 +203,13 @@
 			"import { refreshApex } from '@salesforce/apex'"
 		],
 		"description": "Import refreshApex"
+	},
+	"Import graphQL": {
+		"prefix": "imgq",
+		"body": [
+			"import { gql, graphql, refreshGraphQL } from 'lightning/uiGraphQLApi'"
+		],
+		"description": "Import graphQL"
 	},
 	"Show Toast Event Method": {
 		"prefix": "toast",

@@ -15,7 +15,9 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
 
 **LWC (HTML)**
 <ul>
-    <li> tpt: template if:true </li>
+    <li> tpi: template  lwc:if </li>
+    <li> tpf: template  lwc:elseif </li>
+    <li> tpe: template  lwc:else </li>
     <li> tpf: template if:false </li>
     <li> fore: template for:each </li>
     <li> itr: template Iterator:it </li>
@@ -45,6 +47,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> cle: console.error() </li>
     <li> clc: console.clear() </li>
     <li> func: method() </li>
+    <li> edc: export default class() </li>
     <li> wrmt: wire method </li>
     <li> cmt: method comments </li>
     <li> clt: class comments </li>
@@ -60,7 +63,8 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> imst: import showToastEvent</li>
     <li> imld: import loadStyle and loadScript </li>
     <li> impv: import getPicklistValues</li>
-    <li> ref: import refreshApex </li>
+    <li> imgq: import gql, graphql, refreshGraphQL</li>
+    <li> imra: import refreshApex </li>
     <li> paginator: Generate code for pagination.</li>
     <li> arrow: Creates named arrow method.</li>
     <li> etv: event.target.value</li>
