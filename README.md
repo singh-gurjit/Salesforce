@@ -65,6 +65,9 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> impv: import getPicklistValues</li>
     <li> imgq: import gql, graphql, refreshGraphQL</li>
     <li> imra: import refreshApex </li>
+    <li> imna: import Navigation </li>
+    <li> imf: import file </li>
+    <li> qsl: query selector using data id</li>
     <li> paginator: Generate code for pagination.</li>
     <li> arrow: Creates named arrow method.</li>
     <li> etv: event.target.value</li>

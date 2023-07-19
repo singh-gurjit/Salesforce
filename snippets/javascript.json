@@ -211,6 +211,27 @@
 		],
 		"description": "Import graphQL"
 	},
+	"Import navigation": {
+		"prefix": "imna",
+		"body": [
+			"import { NavigationMixin } from 'lightning/navigation'"
+		],
+		"description": "Import navigation"
+	},
+	"Import file": {
+		"prefix": "imf",
+		"body": [
+			"import fileName from './fileName'"
+		],
+		"description": "Import file"
+	},
+	"query select": {
+		"prefix": "qsl",
+		"body": [
+			"this.template.querySelector(`[data-id='${targetId}']`)"
+		],
+		"description": "Query Selector"
+	},
 	"Show Toast Event Method": {
 		"prefix": "toast",
 		"body": [
