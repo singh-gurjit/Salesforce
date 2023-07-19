@@ -68,6 +68,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> imna: import Navigation </li>
     <li> imf: import file </li>
     <li> qsl: query selector using data id</li>
+    <li> nvur: navigate to url method</li>
     <li> paginator: Generate code for pagination.</li>
     <li> arrow: Creates named arrow method.</li>
     <li> etv: event.target.value</li>

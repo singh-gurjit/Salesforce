@@ -225,6 +225,21 @@
 		],
 		"description": "Import file"
 	},
+	"navigate to url": {
+		"prefix": "nvur",
+		"body": [
+			"navigateToUr(url) {",
+			"\tthis[NavigationMixin.Navigate]({",
+			"\t\ttype: 'standard__webPage',",
+			"\t\tattributes: {",
+			"\t\t\turl",
+			"\t\t}",
+			"\t},",
+			"\t)",
+			"}"
+		],
+		"description": "Import file"
+	},
 	"query select": {
 		"prefix": "qsl",
 		"body": [
