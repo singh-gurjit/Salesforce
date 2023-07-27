@@ -116,6 +116,7 @@
 			"/**",
 			" * @description",
 			" * @author Gurjit Singh",
+			" * @date ${CURRENT_DAY_NAME}-$CURRENT_MONTH_NAME-${CURRENT_DATE}-$CURRENT_YEAR",
 			" **/"
 		],
 		"description": "Class level comments"
@@ -234,8 +235,7 @@
 			"\t\tattributes: {",
 			"\t\t\turl",
 			"\t\t}",
-			"\t},",
-			"\t)",
+			"\t})",
 			"}"
 		],
 		"description": "Import file"
