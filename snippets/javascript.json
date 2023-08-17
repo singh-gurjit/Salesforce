@@ -441,9 +441,20 @@
 			"logError(error) {",
 			"\tconsole.error('There is an error', error)",
 			"\tconsole.log('There is an error', JSON.stringify(error))",
-			"\tthis.showToast('Error', 'There is an error with this application, please check with your system administrator', 'error')",
+			"\tlet errorMessage = error.body?.output?.errors[0]?.message",
+			"\terrorMessage = errorMessage || 'There is an error with this application, please check with your system administrator'",
+			"\tthis.showToast('Error', errorMessage, 'error')",
 			"}"
 		],
 		"description": "logError"
+	},
+	"Constructor": {
+		"prefix": "con",
+		"body": [
+			"constructor(superMain) {",
+			"\tmain = superMain",
+			"}"
+		],
+		"description": "Constructor"
 	}
 }

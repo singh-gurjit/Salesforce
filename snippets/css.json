@@ -21,7 +21,6 @@
         ],
         "description": "Utility icon color"
     },
-
     "SLDS utility icon color background": {
         "prefix": "icnutlbg",
         "body": [
@@ -31,5 +30,37 @@
             "}"
         ],
         "description": "Utility icon color background"
+    },
+    "Field Set with legend": {
+        "prefix": "fds",
+        "body": [
+            "fieldset {",
+            "\tdisplay: flex;",
+            "\talign-items: center;",
+            "\tjustify-content: center;",
+            "\tborder-radius: 0.5rem;",
+            "\tpadding: 0.25rem 0 0.75rem;",
+            "\tborder: 2px solid hsl(213, 94%, 62%);",
+            "}",
+            "legend {",
+            "\tcolor: hsl(213, 94%, 62%);",
+            "\tmargin-left: 1rem;",
+            "\tfont-size: 1rem;",
+            "\tfont-weight: 600;",
+            "}",
+            "section {",
+            "\tbackground: #fff;",
+            "\tborder-radius: 0.5rem;",
+            "\tpadding: 0.5rem;",
+            "}"
+        ],
+        "description": "Field set style"
+    },
+    "brand color": {
+        "prefix": "icnutlbg",
+        "body": [
+            "color: hsl(213, 94%, 62%);"
+        ],
+        "description": "brand color"
     }
 }

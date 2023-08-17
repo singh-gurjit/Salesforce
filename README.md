@@ -43,6 +43,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
 **LWC (Javascript)**
 
 <ul>
+    <li> con: class constructor</li>
     <li> clg: console.log() </li>
     <li> cle: console.error() </li>
     <li> clc: console.clear() </li>
@@ -90,6 +91,8 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
 <ul>
 <li> btnbrand: Changes the lightning button color.</li>
 <li> icnutl: Changes the lightning icon color.</li>
+<li> fds: field set  selectors</li>
+<li> brc: brand color</li>
 </ul>
 
 **LWC (XML)**

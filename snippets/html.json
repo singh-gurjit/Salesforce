@@ -40,9 +40,9 @@
 		"body": [
 			"<template iterator:it={array}>",
 			"    <div key={it.value.Id}>",
-			"        <div if:true={it.first}></div>",
+			"        <div lwc:if={it.first}></div>",
 			"        {it.value.Name}",
-			"        <div if:true={it.last}></div>",
+			"        <div lwc:if={it.last}></div>",
 			"    </div>",
 			"</template>"
 		],
@@ -91,7 +91,7 @@
 	"Lightning Spinner": {
 		"prefix": "spin",
 		"body": [
-			"<template if:true={showSpinner}>",
+			"<template lwc:if={showSpinner}>",
 			"\t<lightning-spinner alternative-text=\"Loading\" size=\"large\" variant=\"brand\">",
 			"\t</lightning-spinner>",
 			"</template>"
