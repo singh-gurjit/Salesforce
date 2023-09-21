@@ -1,6 +1,6 @@
 # Salesforce Code Snippets
 
-It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
+It includes code snippets for Apex and LWC (HTML, Javascript, graphQuery, CSS, and XML).
 
 ## Features
 
@@ -84,6 +84,7 @@ It includes code snippets for Apex and LWC (HTML, Javascript, CSS and XML).
     <li> delete: LDS delete record.</li>
     <li> tcf: try catch and finally block.</li>
     <li> pick: getPicklistValues wire handler.</li>
+    <li> gqy: Sample graph query.</li>
 </ul>
 
 **LWC (CSS)**

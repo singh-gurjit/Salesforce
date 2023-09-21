@@ -442,6 +442,7 @@
 			"\tconsole.error('There is an error', error)",
 			"\tconsole.log('There is an error', JSON.stringify(error))",
 			"\tlet errorMessage = error.body?.output?.errors[0]?.message",
+			"\terrorMessage = errorMessage || error.body?.pageErrors[0]?.message",
 			"\terrorMessage = errorMessage || 'There is an error with this application, please check with your system administrator'",
 			"\tthis.showToast('Error', errorMessage, 'error')",
 			"}"
@@ -456,5 +457,21 @@
 			"}"
 		],
 		"description": "Constructor"
+	},
+	"Graph Query": {
+		"prefix": "gqy",
+		"body": [
+			"`Account (where: { Id: { eq: \"${this.recordId}\" } } orderBy: { LastModifiedDate: { order: DESC } }  first: 1) {",
+			"\tedges {",
+			"\t\tnode {",
+			"\t\t\tId",
+			"\t\t\tName {",
+			"\t\t\t\tvalue",
+			"\t\t\t}",
+			"\t\t}",
+			"\t}",
+			"}`"
+		],
+		"description": "Graph Query"
 	}
 }
